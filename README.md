@@ -9,8 +9,9 @@
 * WASM_BUILD_TOOLCHAIN=nightly-2020-10-06 cargo build --release
 
 ## Run instruction
-* Execute 
-  ```
+* Execute the standard instructions
+  
+```
  ./target/release/node-template \
   --base-path /root/nodeName \
   --chain ./customRaw.json \
@@ -22,4 +23,4 @@
   --rpc-methods Unsafe \
   --name NodeName \
   --bootnodes /ip4/<IP Address>/tcp/<Port>/p2p/<Peer ID>
-  ```
+```
